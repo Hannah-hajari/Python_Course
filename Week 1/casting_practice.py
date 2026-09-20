@@ -11,7 +11,6 @@ print("'",str(c),"'")
 d=input("please enter a string with number: ")
 print(int(d))
 
-
 v="15"
 print(int(v))
 
