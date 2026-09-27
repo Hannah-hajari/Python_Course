@@ -6,4 +6,4 @@ original_list = [
 #second model is str
 sorted_list = sorted(original_list, key=lambda x: int(x['model']), reverse=True)
 
-print(sorted_list )
+print(sorted_list)
