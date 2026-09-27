@@ -1,6 +1,3 @@
-
-original_list=[
-    {'make': ' Google ', 'model': 216, 'color': 'Black'},
-    {'make': 'Mi Max', 'model': '2', 'color': 'Gold'},
-    {'make': 'Samsung', 'model': 7, 'color': 'Blue' }
-]
+Sample_list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+Output=sorted(Sample_list, key=lambda x: x[-1])
+print(Output)
