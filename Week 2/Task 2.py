@@ -1,5 +1,9 @@
-original_list=[
-    {'make': ' Google ', 'model': 216, 'color': 'Black'},
-    {'make': 'Mi Max', 'model': '2', 'color': 'Gold'},
-    {'make': 'Samsung', 'model': 7, 'color': 'Blue' }
-]
+s1 = "Hana98Hajari98!"
+
+total_sum = 0
+count = 0
+
+for character in s1:
+    if character.isdigit():
+        total_sum += int(character)
+        count += 1
