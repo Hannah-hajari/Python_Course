@@ -1,0 +1,1 @@
+String_list = ['Dortmund', 'Bonn', 'Köln', 'Berlin']
